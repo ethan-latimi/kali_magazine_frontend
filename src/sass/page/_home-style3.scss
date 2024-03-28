@@ -1,0 +1,183 @@
+/*--------------------------------------------------------------
+6. Home-style-3 
+--------------------------------------------------------------*/
+
+.page-wrappers.dark-mode {
+    background: $black-bg-color;
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $white;
+    }
+    .topbar {
+        .row {
+            border-color: $border-color-black;
+        }
+
+        ul{
+            li, a{
+                color: $black-section-text-color;
+            }
+        }
+    }
+
+    .wpo-site-header{
+        background:$black-bg-color;
+
+
+        .navigation{
+            background:$black-bg-color;
+        }
+
+        #navbar > ul > li > a{
+            color: $white;
+        }
+
+        .cart-search-contact .search-toggle-btn .fi{
+            color: $white;
+        }
+
+        .header-right .header-right-menu-wrapper .right-menu-toggle-btn span {
+            background: $white;
+        }
+    }
+
+    .wpo-blog-features-section .wpo-blog-features-item .wpo-blog-features-text h2 a {
+        color: $white;
+
+        &:hover {
+            color: $theme-primary-color;
+        }
+    }
+
+    /* 6.1 wpo-blog-highlights-section2  */
+
+    .wpo-blog-highlights-section .wpo-blog-highlights-wrap {
+        border-color: $border-color-black;
+
+        .wpo-blog-item {
+            border-color: $border-color-black;
+
+            .wpo-blog-content {
+                h2 {
+                    a {
+                        color: $white;
+
+                        &:hover {
+                            color: $theme-primary-color;
+                        }
+                    }
+                }
+
+                ul li {
+                    color: $white;
+
+                    &:before {
+                        background: $white;
+                    }
+
+                    a {
+                        color: $white;
+                    }
+                }
+
+                p {
+                    color: $black-section-text-color;
+                }
+            }
+        }
+
+    }
+
+
+    /* 6.2 wpo-blog-sponsored-section2  */
+
+    .wpo-blog-sponsored-section {
+        .wpo-blog-sponsored-wrap {
+            .wpo-blog-item {
+                .wpo-blog-content {
+                    h2 {
+                        a {
+                            color: $white;
+
+                            &:hover {
+                                color: $theme-primary-color;
+                            }
+                        }
+                    }
+
+                    ul li {
+                        color: $white;
+
+                        &:before {
+                            background: $white;
+                        }
+
+                        a {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .main-blog-area{
+        .blog-sidebar {
+            .about-widget {
+                background: $black-bg-color-s2;
+                border-color: $border-color-black;
+
+                 p{
+                    color: $black-section-text-color;
+                 }
+            }
+
+            .widget {
+                border-color: $border-color-black;
+            }
+
+            .category-widget ul > li {
+                a{
+                    color: $black-section-text-color;
+                }
+                &+ li {
+                    border-color: $border-color-black;
+                }
+
+            }
+
+            .wpo-newsletter-widget{
+                p,
+                span,
+                a{
+                    color: $black-section-text-color;
+                }
+            } 
+        }
+    } 
+
+    .wpo-subscribe-section{
+        .wpo-subscribe-wrap{
+            background: #2a2b34;
+        }
+    }
+
+    .blog-sidebar .recent-post-widget .post .details .date {
+        color: $black-section-text-color;
+    }
+
+    .blog-sidebar .recent-post-widget .post h4{
+        a{
+            color: $white;
+
+            &:hover{
+                color: $theme-primary-color;
+            }
+        }
+    }
+}

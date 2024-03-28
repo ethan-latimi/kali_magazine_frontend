@@ -1,0 +1,110 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     Bloggar - News Magazine Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. General
+   1.1 Theme Reset Style
+   1.2 Global Elements
+
+2. header
+   2.1 topbar
+   2.2 navigation
+
+3. content
+   3.1 wpo-hero-slider
+   3.2 wpo-blog-hero-area 
+   3.3 wpo-breacking-news
+   3.4 wpo-blog-highlights-section
+   3.5 wpo-blog-sponsored-section
+   3.6 wpo-subscribe-section
+
+4. wpo-footer
+
+5. Home-style-2
+   5.1 main-blog-area
+   5.2 wpo-blog-features-section
+   5.3 video-blog
+
+6. Home-style-3 
+   6.1 wpo-blog-highlights-section2
+   6.2 wpo-blog-sponsored-section2
+
+7. wpo-cart-page-style
+
+8. wpo-checkout-page-style
+
+9. wpo-shop-page
+
+10. wpo-shop-single-page
+
+11. wpo-blog-pg-section
+
+12. wpo-blog-single-section
+
+13. wpo-contact-pg-section
+
+14. error-404-section
+
+15. auth-page-design
+
+
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/blog-sidebar";
+@import "components/pagination";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+
+@import "page/_home-style2";
+
+@import "page/_home-style3";
+
+@import "page/_cart";
+
+@import "page/_checkout";
+
+@import "page/_shop";
+
+@import "page/_shop-single";
+
+@import "page/_blog";
+
+@import "page/_blog-single";
+
+@import "page/_contact";
+
+@import "page/_error-404";
+
+@import "page/_auth-page";

@@ -1,0 +1,82 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-Demi.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-DemiObl.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-DemiObl.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-Heavy.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-Light.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-Medium.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+// fonts
+$base-font-size: 15;
+$base-font: 'Nunito Sans', sans-serif;
+$heading-font: 'Futura PT';
+
+
+
+// color
+$dark-gray: #232f4b;
+$body-color: #777777;
+$white: #fff;
+$light: #8188a9;
+$black: #000;
+$small-black: #777777;
+$cyan: #848892;
+$black-section-text-color:#CBCBCB;
+
+$theme-primary-color: #3756f7;
+$theme-primary-color-s2: #003aae;
+$body-bg-color: #fff;
+$section-bg-color: #f9faff;
+$text-color: #444444;
+$text-light-color: #676767;
+$black-bg-color: #202026;
+$black-bg-color-s2: #2C2C32;
+$heading-color: $dark-gray;
+$border-color: #eeeeee;
+$border-color-s2: #eef0fc;
+$border-color-black: #3c3c40;
