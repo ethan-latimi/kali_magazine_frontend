@@ -1,7 +1,6 @@
-import React from "react";
-import { Link } from 'react-router-dom'
-import heroBlog from '../../api/heroBlogs'
-
+import React from 'react';
+import { Link } from 'react-router-dom';
+import heroBlog from '../../api/heroBlogs';
 
 const Hero = () => {
     return (
@@ -18,11 +17,18 @@ const Hero = () => {
                                             <img src={blog.screens} alt className="img img-responsive" />
                                             <div className="wpo-blog-content">
                                                 <div className="thumb">{blog.thumb}</div>
-                                                <h2><Link to={`/hero-blog-single/${blog.slug}`}>{blog.title}</Link></h2>
+                                                <h2>
+                                                    <Link to={`/hero-blog-single/${blog.slug}`}>{blog.title}</Link>
+                                                </h2>
                                                 <p>{blog.description}</p>
                                                 <ul>
-                                                    <li><img src={blog.avater} alt="" /></li>
-                                                    <li>By <Link to={`/hero-blog-single/${blog.slug}`}>{blog.author}</Link></li>
+                                                    <li>
+                                                        <img src={blog.avater} alt="" />
+                                                    </li>
+                                                    <li>
+                                                        By{' '}
+                                                        <Link to={`/hero-blog-single/${blog.slug}`}>{blog.author}</Link>
+                                                    </li>
                                                     <li>{blog.create_at}</li>
                                                 </ul>
                                             </div>
@@ -36,9 +42,14 @@ const Hero = () => {
                                             <img src={blog.screens} alt className="img img-responsive" />
                                             <div className="wpo-blog-content">
                                                 <div className="thumb">{blog.thumb}</div>
-                                                <h2><Link to={`/hero-blog-single/${blog.slug}`}>{blog.title}</Link></h2>
+                                                <h2>
+                                                    <Link to={`/hero-blog-single/${blog.slug}`}>{blog.title}</Link>
+                                                </h2>
                                                 <ul>
-                                                    <li>By <Link to={`/hero-blog-single/${blog.slug}`}>{blog.author}</Link></li>
+                                                    <li>
+                                                        By{' '}
+                                                        <Link to={`/hero-blog-single/${blog.slug}`}>{blog.author}</Link>
+                                                    </li>
                                                     <li>{blog.create_at}</li>
                                                 </ul>
                                             </div>
@@ -49,10 +60,9 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Hero;
